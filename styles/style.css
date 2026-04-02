@@ -1,10 +1,58 @@
-body{
-    font-family: Ag, Space Grotesk;
-    background-color: #f5f5f5;
+*{
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Space Grotesk, Ag, "Segoe UI";
+    font-size: 22px;
+    color: black;
 }
-aside{
-    font: 9000;
+html, body, :root{
+    height: 100%;
+    background-color: white;
+}
+
+.header{
+    margin-top: 20px;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    border-bottom: 1px solid white;
+}
+.header-logo{
+    margin-right: 500px;
+    height: 70px;
+}
+.header ul{
+    font-family: Space Grotesk;
+    list-style: none;
+    display: flex;
+    margin-right: 60px;
+}
+.header ul li a{
+    text-decoration: none;
+    margin-left: 60px;
+}
+.header-button{
+    margin-right: 100px;
+    margin-top: 35px;
+    text-decoration: none;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    width: 231px;
+    height: 68px;
+    padding: 17px 15px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 15px;
+    border: 2px solid black;
+    color: black;
+    display: inline-block;
+
+    
 
 }
