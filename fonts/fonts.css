@@ -3,19 +3,19 @@
     src: url('font/SpaceGrotesk-Regular.woff2');
     font-weight: normal;
     font-style: normal;
-    font-display: block;
+    font-display: swap;
 }
 @font-face {
-    font-family: 'Ag' ;
-    src: url('/fonts/agfutura.ttf');
-    font-weight: normal;
+    font-family: 'Space-Grotesk' ;
+    src: url('font/SpaceGrotesk-Bold.woff2');
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
-    font-family: 'Ag-Bold' ;
-    src: url('/fonts/agfuturabold.ttf');
-    font-weight: 700px;
+    font-family: 'Space-Grotesk' ;
+    src: url('font/SpaceGrotesk-Medium.woff2');
+    font-weight: medium;
     font-style: normal;
     font-display: swap;
 }
